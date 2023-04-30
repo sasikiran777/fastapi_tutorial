@@ -1,0 +1,27 @@
+1. Why we need venv?
+
+	To isolate installable dependence only to that project and do not affect any outside env.
+
+
+2. How to create a venv?
+
+	python3 -m venv "env_name"
+
+
+3. How to activate venv?
+
+	source "env_name"/bin/activate
+
+
+4. How to install any packages in python project?
+
+	Activate venv and pip install "package_name"
+
+
+5. How list all packages in python project?
+
+	Activate venv and pip list
+
+6. How to start FastAPI server?
+
+    uvicorn app:app --reload

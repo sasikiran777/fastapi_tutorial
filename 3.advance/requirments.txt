@@ -1,0 +1,7 @@
+uvicorn[standard]
+fastapi
+passlib[bcrypt]
+python-jose[cryptography]
+python-multipart
+python-dotenv
+tortoise-orm[asyncmy]

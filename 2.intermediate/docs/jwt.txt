@@ -1,0 +1,18 @@
+1. What is JWT?
+
+    JSON Web Token
+
+2. JWT consist of what?
+
+    Header Payload Signature
+    aaaaaa.bbbbbbb.cccccc
+
+3. JWT header consist of what?
+
+    alg, typ
+    eg: {alg: "HS256", typ: "JWT"}
+
+4. How to Generate Secret?
+
+    openssl rand -hex 32
+    eg: a765f709eaee1d65d8190ad610084cb9e4aa6d1a502e49cccc705dbad65f8076
